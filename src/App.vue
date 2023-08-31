@@ -1,10 +1,18 @@
 <script setup>
 	import HeaderBetween from "./components/headers/HeaderBetween.vue"
+	import HeaderBetweenLogoLeft from "./components/headers/HeaderBetweenLogoLeft.vue"
+	import HeaderManu from "./components/headers/HeaderManu.vue"
+	import MagaManuSideBarLeft from "./components/headers/MagaManuSideBarLeft.vue"
+	import MagaMnauSideBarRigh from "./components/headers/MagaManuSideBarLeft.vue"
 </script>
 
 <template>
 	<div>
-		<HeaderBetween />
+		<!-- <HeaderBetween /> -->
+		<HeaderBetweenLogoLeft />
+		<!-- <HeaderManu /> -->
+		<!-- <MagaManuSideBarLeft /> -->
+		<MagaMnauSideBarRigh />
 	</div>
 </template>
 
